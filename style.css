@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Scheherazade New', serif;
+}
+
+.main_div {
+    width: 100%;
+    min-height: 104vh;
+    background-color: hsl(0, 12%, 88%);
+    display: grid;
+    place-items: center;
+}
+
+.inner_div{
+    width: 40vw;
+    background-color: rgb(255, 203, 230);
+    /* display: flex;
+    flex-direction: column;
+    place-items: center; */
+    border-radius: 5%;
+    box-shadow: 2px 2px 13px 1px;
+    padding: 55px;
+    /* place-items: center; */
+}
+
+.inner_div h1{
+   font-size: 36px;
+}
+
+.inner_div li{
+    font-size: 20px;
+    margin: 12px;
+    list-style: none;
+    font-weight: 12px;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit {
+    padding: 5px;
+    width: 99px;
+    display: grid;
+    margin-left: 41%;
+    background-color: hsl(0, 12%, 88%);
+    border-radius: 7%;
+}
+
+#submit:hover{
+    background-color: rgb(60, 179, 113);
+}
+
+#showCard {
+    background-color: hotpink;
+    box-shadow: 2px 2px 13px 1px;
+    margin-top: 21px;
+    padding: 14px;
+    text-align: center;
+}
+
+.showScore{
+    display: none;
+}
+
+.btn{
+    background-color: #a2a8d3;
+    padding: 5px;
+    width: 99px;
+    display: grid;
+    margin-left: 41%;
+    /* background-color: hsl(0, 12%, 88%); */
+    border-radius: 7%;
+}
+
+.btn:hover{
+    background-color: #e7eaf6;
+}
+
+
